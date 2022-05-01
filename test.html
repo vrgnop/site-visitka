@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+      <nav>
+        <header id="header">
+          <div class="header-contntainer">
+          <div class="element-header-contntainer" id="logo">
+              <div class="logo">
+                  <img src="images/N..png" alt="logo" class="logo">
+              </div>
+          </div>
+          <div class="element-header-contntainer" id="menu">
+              <nav>
+                  <div class="hamburger-menu">
+                      <input id="menu__toggle" type="checkbox" />
+                      <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                      </label>
+                  <ul class="list", id="list-id">      
+                      <li class="item">
+                              <a href="#obo_mne-ancor" class="jackor">Обо мне</a>
+                          </label>
+                      </li>
+                      <li class="item">
+                            <a href="#obrazovanie-ancor" class="jackor">Образование</a>
+                      </li>
+                      <li class="item">
+                          <a href="#opyt_raboty-ancor" class="jackor">Опыт работы</a>
+                      </li>
+                      <li class="item">
+                          <a href="#hobby-ancor" class="jackor">Хобби</a>
+                      </li>
+                      <li class="item">
+                          <a href="#kak_ya_stal-ancor" class="jackor">Как я становился разработчиком</a>
+                      </li>
+                      <a href="javascript: PopUpHide('#list-id')">Close</a>
+                  </ul>
+                  </div>
+
+              </nav>
+          </div>
+          <div class="element-header-contntainer" id="contacts">           
+              <div class="contacts">
+                  <p>Телефон</p>
+                  <a href="tel:79999999999">+7 (999) 999-99-99</a> 
+              </div>
+          </div>
+      </div>     
+              
+              
+              
+
+      </header>
+
+<script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+<script>
+    $(document).ready(function(){   
+        // PopUpHide('#popup2');
+        // PopUpHide('#popup3');
+    });
+    function PopUpShow(x){
+        // front.style.width='50px';
+        $(x).show();
+    }
+    function PopUpHide(y){
+        $(y).hide();
+    }
+    function Slider(a,b){
+        $(a).show(); 
+        $(b).hide();       
+    }
+</script>
+    </body>
+</html>
